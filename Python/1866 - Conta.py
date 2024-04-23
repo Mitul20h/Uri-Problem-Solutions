@@ -1,14 +1,2 @@
-C = int(input())
-
-while(C > 0):
-    N = int(input())
-    vector = []
-
-    for i in range(N):
-        if i%2 == 0:
-            vector.append(1)
-        else:
-            vector.append(-1)
-
-    print(sum(vector))
-    C -= 1
+for i in range (int(input())) :
+      print(0 if int(input())%2==0 else 1)
